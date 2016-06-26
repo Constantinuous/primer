@@ -107,13 +107,28 @@ There are many web fiddles where you can try out ideas in many programming langu
 * [Rust](https://play.rust-lang.org/)
 * [Swift](https://swiftlang.ng.bluemix.net/#/repl)
 
+## Shell
+Linux has great shell options. Windows, not so much. Powershell is fine but usually it's not enabled due to security reasons or out-of-date. So why not install a serious shell with all the linux goodness? 
+* [Git Bash, comes with Git](https://git-for-windows.github.io/). Only a couple core programs.
+* [Babun](http://babun.github.io/). Has lots of programs (728 Mb) and has a pre-configured git.  Also has a package manager *pact*.
+
 ## Package Manager
 * [Chocolatey (Windows)](https://chocolatey.org/)
 * [Homebrew (Mac)](http://brew.sh/)
-* [NPM which is part of node](https://nodejs.org/en/).
+* [NPM which comes with node](https://nodejs.org/en/).
+* [Pip which comes with Python >=2.7.9 or 3.4](https://www.python.org/).
 
-## Other tools
+## Cool tools
 * [Pandoc](http://pandoc.org/): A swiss-army knife for converting one markup format into another (docx, odt, slidy, reveal.js, latex, pdf, markdown, epub etc.). `choco install pandoc` or `brew install pandoc`.
+* [Httpie](https://github.com/jkbrzt/httpie): a command line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. POST comments with authentication, submit forms, download/upload files `pip install --upgrade httpie`
+* [jq](https://stedolan.github.io/jq/): like sed for JSON data.
+* [pup](https://github.com/ericchiang/pup): filter html data with css selectors.
+* [CLOC - Count Lines of Code](https://github.com/AlDanial/cloc). cloc counts blank lines, comment lines, and physical lines of source code in many programming languages and can diff them. It can also filter out duplications. `npm install -g cloc` or `choco install cloc` or `brew install cloc`.
+
+## Disk Usage Tools
+* [WinDirStat (Windows)](https://windirstat.info/)
+* [Disk Inventory X (Mac)](http://www.derlien.com/)
+
+## Tool Collections
 * [Coreutils](http://gnuwin32.sourceforge.net/packages/coreutils.htm). The GNU Core Utilities are the basic file, shell and text manipulation utilities of the GNU operating system. `choco install gnuwin32-coreutils.install` or `brew install coreutils`.
 * [Moreutils](https://joeyh.name/code/moreutils/) including amongst others *vipe: insert a text editor into a pipe*.
-* [CLOC - Count Lines of Code](https://github.com/AlDanial/cloc). cloc counts blank lines, comment lines, and physical lines of source code in many programming languages and can diff them. It can also filter out duplications. `npm install -g cloc` or `choco install cloc` or `brew install cloc`.
