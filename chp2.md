@@ -1,5 +1,5 @@
 # RichCode
-## Chapter 2: DRY - Don't Repeat Yourself
+# Chapter 2: DRY - Don't Repeat Yourself
 Don't Duplicate anything! The problem with redundant things is always that you forget about the duplication. And then you change one thing and don't know about the other or forget to update it. 
 
 * Don't write redundant comments in your code! Express the domain language with code. If you cannot express it with code, that usually means you need to refactor.

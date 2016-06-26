@@ -93,3 +93,16 @@ Really anything you need to build and understand the project belong in version c
 Your version control should be your single point of truth. You have a version control smell when your team members continuously ask where they can find document x or where to put file y.
 
 You don't need to put Maven, Npm, Nuget dependencies here, but you can if your team wants to. Just don't put your compiled source code here. That is a duplication (sources and the binaries) and we hate duplications!
+
+## Fiddle around
+There are many web fiddles where you can try out ideas in many programming languages. A list can be found [here](https://fiddles.io/).
+
+* [.Net](https://dotnetfiddle.net/)
+* [JavaScript](https://jsfiddle.net/)
+* [JavaScript ES6](https://babeljs.io/repl/)
+* [TypeScript(https://www.typescriptlang.org/play/)
+* [SQL](http://sqlfiddle.com/)
+* [Regex](http://refiddle.com/)
+* [Python](http://pythonfiddle.com/)
+* [Rust](https://play.rust-lang.org/)
+* [Swift](https://swiftlang.ng.bluemix.net/#/repl)

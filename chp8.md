@@ -1,5 +1,5 @@
 # RichCode
-## Chapter 8: Support
+# Chapter 8: Support
 
 Sooner or later someone will find a bug in your software. And probably it's not in your code. Maybe the bug is in software you have never written a single line for. It is "someone elses code" but it is definately your problem. 
 
@@ -18,4 +18,4 @@ How to solve a bug:
 2. Write a test for the bug.
 3. Fix the bug.
 4. You have now seen what was wring. Maybe you discovered other bugs. Write tests for them and fix them as well.
-4. Mark as solved. The evidence is the passing test(s).
+5. Mark as solved. The evidence is the passing test(s).
