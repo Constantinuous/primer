@@ -3,7 +3,7 @@
 
 Read [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?ie=UTF8&qid=1466958142&sr=8-1&keywords=clean+code). 
 
-## Who is this book for
+## Who this Book is for
 Me. I write this book because I want to become a better software engineer. I also want to have a reference where I can look up stuff I forget. However, I still feel that it could be valuable for other people to read this. My goal is to summarize end-to-end software development. From requirements, through development, to testing and build/deploy. But because it is a summary a lot of explanations will be glossed over, leaving only the final result.
 
 ## Which other Books are great

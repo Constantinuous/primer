@@ -5,7 +5,7 @@
 
 ## Introduction
 
-A Book about Coding
+A Book about Coding … that is not finished at all. 
 
 [Table of Contents](toc.md)
 
