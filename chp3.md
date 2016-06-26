@@ -64,6 +64,9 @@ Learn how to use Bash. If you are on Windows you should have Git installed anywa
 `find . -type f -print0 | wc -l --files0-from=- | sort -rn | head -100`
 `find . -type f -iname "*.java" -print0 | wc -l --files0-from=- | sort -rn | head -10`
 
+*Find all file extensions*
+`find . -type f -name '*.*' | sed 's|.*\.||' | tr '[:upper:]' '[:lower:]' | sort -u`
+
 ### Repository scripting
 *Restore all repositories with a .git folder*
 `for d in `find . -name .git -type d -prune`; do (cd "$d/.." && git checkout . ); done`
@@ -85,6 +88,8 @@ Notice I did not use the term Source Control. CSV, SVN, Git are __version contro
 * [Lambda CD](http://www.lambda.cd/) Build Pipelines as code belong in version control
 * Passwords __do not__ belong in version control!
 
-Really anything you need to build and understand the project belong in version control and in the same repository. In the end any new team member should check out one repository and have all the data he needs to build, run and understand the project.
+Really anything you need to build and understand the project belong in version control and in the same repository. In the end any new team member should check out one repository and have all the data he needs to build, run and understand the project. 
+
+Your version control should be your single point of truth. You have a version control smell when your team members continuously ask where they can find document x or where to put file y.
 
 You don't need to put Maven, Npm, Nuget dependencies here, but you can if your team wants to. Just don't put your compiled source code here. That is a duplication (sources and the binaries) and we hate duplications!
