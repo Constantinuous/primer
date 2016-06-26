@@ -1,4 +1,4 @@
-# RichCode
+# A Primer About Software Engineering
 # Chapter 6: Component and Object Design
 
 ## Write Shy Code [Pragmatic]

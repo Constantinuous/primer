@@ -1,4 +1,4 @@
-# RichCode
+# A Primer About Software Engineering
 # Chapter 8: Support
 
 Sooner or later someone will find a bug in your software. And probably it's not in your code. Maybe the bug is in software you have never written a single line for. It is "someone elses code" but it is definately your problem. 

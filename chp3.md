@@ -1,4 +1,4 @@
-# RichCode
+# A Primer About Software Engineering
 # Chapter 3: Know your Tools
 
 ## Write plain text [Pragmatic Programmer]

@@ -1,10 +1,9 @@
-RichCode
-==================
+# A Primer About Software Engineering
+
 
 <img src="cover.jpg" width="300">
 
-Introduction
-------------------
+## Introduction
 
 A Book about Coding
 

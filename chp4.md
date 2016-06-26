@@ -1,4 +1,4 @@
-# RichCode
+# A Primer About Software Engineering
 # Chapter 4: Error Handling
 
 ## When to use Exceptions [Pragmatic Programmer]

@@ -1,4 +1,4 @@
-# RichCode
+# A Primer About Software Engineering
 # Chapter 2: DRY - Don't Repeat Yourself
 Don't Duplicate anything! The problem with redundant things is always that you forget about the duplication. And then you change one thing and don't know about the other or forget to update it. 
 

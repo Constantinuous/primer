@@ -1,8 +1,7 @@
-RichCode
-======================
+# A Primer About Software Engineering
 
-Table of Contents
-----------------------
+
+## Table of Contents
 
 * Foreword
 * Preface
