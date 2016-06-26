@@ -106,3 +106,14 @@ There are many web fiddles where you can try out ideas in many programming langu
 * [Python](http://pythonfiddle.com/)
 * [Rust](https://play.rust-lang.org/)
 * [Swift](https://swiftlang.ng.bluemix.net/#/repl)
+
+## Package Manager
+* [Chocolatey (Windows)](https://chocolatey.org/)
+* [Homebrew (Mac)](http://brew.sh/)
+* [NPM which is part of node](https://nodejs.org/en/).
+
+## Other tools
+* [Pandoc](http://pandoc.org/): A swiss-army knife for converting one markup format into another (docx, odt, slidy, reveal.js, latex, pdf, markdown, epub etc.). `choco install pandoc` or `brew install pandoc`.
+* [Coreutils](http://gnuwin32.sourceforge.net/packages/coreutils.htm). The GNU Core Utilities are the basic file, shell and text manipulation utilities of the GNU operating system. `choco install gnuwin32-coreutils.install` or `brew install coreutils`.
+* [Moreutils](https://joeyh.name/code/moreutils/) including amongst others *vipe: insert a text editor into a pipe*.
+* [CLOC - Count Lines of Code](https://github.com/AlDanial/cloc). cloc counts blank lines, comment lines, and physical lines of source code in many programming languages and can diff them. It can also filter out duplications. `npm install -g cloc` or `choco install cloc` or `brew install cloc`.
